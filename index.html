@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <style>
+            .container{
+                margin: 50px auto;
+                text-align: center;
+            }
+        </style>
+       
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+        </div>
+        <div class="card mx-auto align-items-center" style="width: 30%;">
+            <div class="card-header">
+              Weather 
+            </div>
+            <div class="card-body">
+                <input class="form-control" type="text" placeholder="Enter city name" id="txtInput">
+            <button type="button" class="btn btn-info" id="btnSubmit">Submit</button>
+
+            <h3 id="city">Not selected</h3>
+            <p>Temparature : <span id="temp">0.00</span>&deg;</p>
+            <p>Wind Speed : <span id="windspd">0.00</span> km/h</p>
+            <p>Humidity : <span id="humidity">0.00</span> %</p>
+            <p>Description : <span id="dscrptn"></span></p>     
+             
+            
+            </div>
+          </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="module" src="./Script.js"></script>
+    </body>
+</html>
